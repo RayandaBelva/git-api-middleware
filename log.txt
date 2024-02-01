@@ -1,0 +1,60 @@
+TEST
+[GIN] 2024/01/31 - 21:01:22 200 0s ::1 GET /account/ 
+
+[GIN] 2024/01/31 - 21:02:13 400 0s ::1 PUT /account/create 
+
+[GIN] 2024/01/31 - 21:02:23 201 997.7µs ::1 POST /account/create 
+
+[GIN] 2024/01/31 - 21:02:36 200 0s ::1 GET /account/ 
+
+[GIN] 2024/01/31 - 21:03:10 200 0s ::1 PUT /account/5 
+
+[GIN] 2024/01/31 - 21:03:22 200 0s ::1 GET /account/name/Rayanda 
+
+[GIN] 2024/02/01 - 06:26:38 200 1.0289ms ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 06:28:18 201 220.7µs ::1 POST /account/create 
+
+[GIN] 2024/02/01 - 06:28:34 200 0s ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 06:29:26 200 0s ::1 PUT /account/5 
+
+[GIN] 2024/02/01 - 06:29:34 200 0s ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 06:29:48 200 0s ::1 GET /account/id/1 
+
+[GIN] 2024/02/01 - 06:29:57 200 0s ::1 GET /account/name/Rayanda 
+
+[GIN] 2024/02/01 - 06:30:26 200 0s ::1 DELETE /account/5 
+
+[GIN] 2024/02/01 - 06:30:33 200 0s ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 08:08:00 200 260.2µs ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 08:08:33 201 680.3µs ::1 POST /account/create 
+
+[GIN] 2024/02/01 - 08:08:48 200 0s ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 08:09:00 200 0s ::1 DELETE /account/4 
+
+[GIN] 2024/02/01 - 08:09:05 200 0s ::1 GET /account/ 
+
+NEW
+
+[GIN] 2024/02/01 - 08:35:24 200 578.8µs ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 08:36:13 201 895.9µs ::1 POST /account/create 
+
+[GIN] 2024/02/01 - 08:36:24 200 0s ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 08:36:51 200 0s ::1 PUT /account/5 
+
+[GIN] 2024/02/01 - 08:37:01 200 0s ::1 GET /account/ 
+
+[GIN] 2024/02/01 - 08:37:20 200 0s ::1 GET /account/id/1 
+
+[GIN] 2024/02/01 - 08:37:29 200 0s ::1 GET /account/name/Rayanda 
+
+[GIN] 2024/02/01 - 08:37:44 200 0s ::1 DELETE /account/5 
+
+[GIN] 2024/02/01 - 08:37:50 200 0s ::1 GET /account/ 
